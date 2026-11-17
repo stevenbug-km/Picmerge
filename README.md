@@ -3,6 +3,7 @@
   <h1>Picmerge</h1>
   <p><strong>一款用 Swift 从零写成的 macOS 原生图片拼接工具</strong></p>
   <p>网页整页长图 · 本地多图拼接 · 单图拆分重组</p>
+  <p><a href="https://github.com/stevenbug-km/Picmerge">GitHub 仓库</a> · macOS 13+ · MIT License</p>
 </div>
 
 ## 简介
@@ -57,7 +58,7 @@ Picmerge 是一个基于 **SwiftUI + AppKit + WebKit** 的 macOS 桌面应用，
 ### 方式二：一键构建成可双击运行的 .app
 
 ```bash
-git clone https://github.com/<你的用户名>/Picmerge.git
+git clone https://github.com/stevenbug-km/Picmerge.git
 cd Picmerge
 bash Scripts/build-app.sh
 ```

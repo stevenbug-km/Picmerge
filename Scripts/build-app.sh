@@ -19,8 +19,8 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 BUILD="$ROOT/build"
 APP="$BUILD/Picmerge.app"
 INSTALL_APP="$HOME/Applications/Picmerge.app"
-VERSION="1.6.0"
-BUILD_NUMBER="7"
+VERSION="0.1.0"
+BUILD_NUMBER="1"
 
 XCODE="/Applications/Xcode.app/Contents/Developer"
 if [ ! -d "$XCODE" ]; then
